@@ -17,6 +17,10 @@ module.exports = {
         if(object["Time"] == "" || typeof object["Time"] != "string"){
             errors.push(arguments[i]);
         }
+        
+        if(typeof object["ID"] != "number"){
+                   errors.push(arguments[i]);
+        }
         return errors.length === 0 ? null : errors;
     }
 
