@@ -6,7 +6,7 @@ var mongoose = require('mongoose'); // Toen ik aan medeleerlingen vroeg over Mon
 var express = require('express'); // eenvoudige webserver in node js
 var parser = require('body-parser'); // extensie op express voor eenvoudig body uit te lezen
 
-mongoose.connect('mongodb://localhost:27017/MyApi'); //Databank raadplegen
+mongoose.connect('mongodb://localhost:27017/MyAPI'); //Databank raadplegen
 
 // Toevoegen van de code van de dal vervangt onze
 // onze lokale 'datastore'. deze variable bewaart onze state. 
